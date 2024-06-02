@@ -23,7 +23,7 @@
 
 하지만 위 그림과 같이 사각형이 검출되지 않는다는 경우가 있다는 것을 알게 되었습니다. 이를 해결하기 위해 서로 최대한 수직에 가까우면서 길이가 긴 4개의 변을 고르는 방식을 이용해 사각형을 검출했습 니다. 검출한 사각형은 아래 그림에서 파란색 선으로 나타내었습니다.
 
-<img src="./submit/report/solve/hw1-3-4.png" height="500px"> <img src="./submit/report/solve/hw1-3-5.png" height="500px"> <img src="./submit/report/solve/hw1-3-6.png" height="500px">
+<img src="./submit/report/solve/hw1-3-4.png" width="500px"> <img src="./submit/report/solve/hw1-3-5.png" width="500px"> <img src="./submit/report/solve/hw1-3-6.png" width="500px">
 
 변환 행렬을 구하는 일련의 과정은 `checker_board.py` 파일의 57-87번 라인에 있는 `auto_perspective_matrix` 함수에서 확인할 수 있습니다. 문제 해결 과정에서 얻은 이미지는 `/report/solve/hw1-3-{m}.png` 에서 확인할 수 있습니다.
 
@@ -104,25 +104,24 @@
 
 테두리가 나오는 등의 오차가 조금 있지만, 전체적으로 올바른 결과가 나왔습니다.
 
-<img src="./submit/report/test_image/hw1-3-img-1.PNG" height="300px"> <img src="./submit/report/test_image/hw1-3-img-2.PNG" height="300px">
+<img src="./submit/report/test_image/hw1-3-img-1.png" height="300px"> <img src="./submit/report/test_image/hw1-3-img-2.png" height="300px">
 
-<img src="./submit/report/test_image/hw1-3-img-3.PNG" height="300px"> <img src="./submit/report/test_image/hw1-3-img-4.PNG" height="300px">
+<img src="./submit/report/test_image/hw1-3-img-3.png" height="300px"> <img src="./submit/report/test_image/hw1-3-img-4.png" height="300px">
 
-<img src="./submit/report/test_image/hw1-3-img-5.PNG" height="300px"> <img src="./submit/report/test_image/hw1-3-img-6.PNG" height="300px">
+<img src="./submit/report/test_image/hw1-3-img-5.png" height="300px"> <img src="./submit/report/test_image/hw1-3-img-6.png" height="300px">
 
-<img src="./submit/report/test_image/hw1-3-img-7.PNG" height="300px"> <img src="./submit/report/test_image/hw1-3-img-8.PNG" height="300px">
+<img src="./submit/report/test_image/hw1-3-img-7.png" height="300px"> <img src="./submit/report/test_image/hw1-3-img-8.png" height="300px">
 
 ### HW 1-4. Countint the pieces
 
 말의 높이가 큰 5번 이미지를 제외한 모든 테스트 이미지에서 올바른 결과를 구했습니다.
 
-<img src="./submit/report/test_image/hw1-4-img-1.PNG" height="300px"> <img src="./submit/report/test_image/hw1-4-img-2.PNG" height="300px">
+<img src="./submit/report/test_image/hw1-4-img-1.png" height="300px"> <img src="./submit/report/test_image/hw1-4-img-2.png" height="300px">
 
-<img src="./submit/report/test_image/hw1-4-img-3.PNG" height="300px"> <img src="./submit/report/test_image/hw1-4-img-4.PNG" height="300px">
+<img src="./submit/report/test_image/hw1-4-img-3.png" height="300px"> <img src="./submit/report/test_image/hw1-4-img-4.png" height="300px">
 
-<img src="./submit/report/test_image/hw1-4-img-5.PNG" height="300px"> <img src="./submit/report/test_image/hw1-4-img-6.PNG" height="300px">
+<img src="./submit/report/test_image/hw1-4-img-5.png" height="300px"> <img src="./submit/report/test_image/hw1-4-img-6.png" height="300px">
 
-<img src="./submit/report/test_image/hw1-4-img-7.PNG" height="300px"> <img src="./submit/report/test_image/hw1-4-img-8.PNG" height="300px">
+<img src="./submit/report/test_image/hw1-4-img-7.png" height="300px"> <img src="./submit/report/test_image/hw1-4-img-8.png" height="300px">
 
 <img src="./submit/report/test_image/hw1-4-img-9.png"> 
-
